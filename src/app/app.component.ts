@@ -11,4 +11,4 @@ export class AppComponent {
     changeEmoji() {
         this.activeEmoji = this.emoji[Math.floor(Math.random() * this.emoji.length)];
     }
-    }
+}
